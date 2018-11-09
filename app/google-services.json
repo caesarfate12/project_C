@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "746934105271",
+    "firebase_url": "https://projectc-10426270.firebaseio.com",
+    "project_id": "projectc-10426270",
+    "storage_bucket": "projectc-10426270.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:746934105271:android:5aa0aac4944b12c1",
+        "android_client_info": {
+          "package_name": "com.android.caesar.project_c"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "746934105271-ppsk32ig7so3aag5pqubs1796k00nr63.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXRbR98ub7_GHTx8EettzXMgEmOI1QTzo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

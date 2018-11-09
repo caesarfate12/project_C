@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="20dp"
+    android:orientation="vertical"
+    tools:context=".CreateCourse">
+
+
+    <EditText
+        android:id="@+id/editText_class_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="5"
+        android:ems="10"
+        android:hint="課程代瑪"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editText_class_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="5"
+        android:ems="10"
+        android:hint="課程名稱"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/create_class"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="5"
+        android:text="新增科目" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/spinner_class_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/refresh_Btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:drawableBottom="@android:drawable/ic_menu_rotate" />
+    </LinearLayout>
+
+</LinearLayout>

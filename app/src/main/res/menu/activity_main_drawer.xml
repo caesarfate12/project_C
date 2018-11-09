@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/real_time"
+            android:icon="@drawable/ic_menu_a24"
+            android:title="即時資訊" />
+        <item
+            android:id="@+id/curriculum"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="課表" />
+        <item
+            android:id="@+id/announcement"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="公告" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Tools" />
+    </group>
+
+    <item android:title="其他">
+        <menu>
+            <item
+                android:id="@+id/information"
+                android:icon="@drawable/ic_menu_oa24"
+                android:title="資訊" />
+            <item
+                android:id="@+id/about_me"
+                android:icon="@drawable/ic_menu_ob24"
+                android:title="關於我" />
+        </menu>
+    </item>
+
+</menu>
